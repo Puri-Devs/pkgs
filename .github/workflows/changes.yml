@@ -21,7 +21,7 @@ jobs:
     steps:
     - name: Github REST API Call
       env:
-        CI_TOKEN: ${{ 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 }}
+        CI_TOKEN: ${{ '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' }}
         PARENT_REPO: <puri-devs/npws>
         PARENT_BRANCH: main
         WORKFLOW_ID: <9999999>
